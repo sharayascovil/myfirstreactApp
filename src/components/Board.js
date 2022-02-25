@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import '../css/Board.css';
-import Note from './Note'
+import Note from './Note';
 
 class Board extends Component {
     constructor() {
@@ -15,13 +15,13 @@ class Board extends Component {
                         <Note title="" body=""/>
                         <Note title="" body=""/>
                         <Note title="" body=""/>
+                     </div>
+                </div>
+                <div>
+                    <button className="btn btn-success add-button">Add</button>
+                </div>
             </div>
-        </div>
-        <div>
-          <button className="btn btn-success add-button">Add</button>
-        </div>
-    </div>
-        );
+         );
     }
 }
 

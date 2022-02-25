@@ -1,12 +1,12 @@
-import { render } from '@testing-library/react';
 import React, {Component} from 'react';
 import '../css/Note.css';
+import PropTypes from 'prop-types';
 
 class Note extends Component {
     constructor() {
         super();
     }
-}
+
 
 render() {
     return (
